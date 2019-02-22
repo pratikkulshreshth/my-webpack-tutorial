@@ -5,6 +5,9 @@ module.exports = {
     // Display only errors to reduce the amount of output.
     stats: "errors-only",
 
+    // To capture compilation errors and warnings
+    overlay: true,
+
     // Parse host and port from env to allow customization.
     //
     // If you use Docker, Vagrant or Cloud9, set
